@@ -103,7 +103,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"> 
                 <div class="md:order-1"> 
-    <img src="{{ asset('storage/avatars/vectorr.webp') }}" alt="Ilustrasi Belajar Mengaji" class="mx-auto rounded-lg shadow-xl w-full max-w-[300px]">
+    <img src="https://i.imgur.com/xUXAStG.jpeg" alt="Ilustrasi Belajar Mengaji" class="mx-auto rounded-lg shadow-xl w-full max-w-[300px]">
 </div>
                     <div class="md:order-2 space-y-8"> 
                         <div class="p-6 bg-teal-50 rounded-lg border border-teal-200 shadow-lg flex flex-col"> 
