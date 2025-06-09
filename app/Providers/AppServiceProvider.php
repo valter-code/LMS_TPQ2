@@ -22,6 +22,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         
+         if($this->app->environment('production')) {
+        \URL::forceScheme('https');
+    }
         View::composer('*', function ($view) {
             $view->with('settings', Setting::getMultiple([
                 'contact_address',
