@@ -9,6 +9,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('test', function () {
+    return view('test');
+});
+
 Route::get('/pengumuman', [PengumumanPublikController::class, 'index'])->name('pengumuman.index'); // Kita beri nama 'pengumuman.index'
 
 // Jika Anda ingin halaman detail pengumuman (untuk link "Baca Selengkapnya")

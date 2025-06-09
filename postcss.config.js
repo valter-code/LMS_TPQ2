@@ -1,7 +1,7 @@
+// postcss.config.js - KONFIGURASI YANG BENAR
 export default {
-    plugins: {
-        'tailwindcss/nesting': 'postcss-nesting',
-        tailwindcss: {},
-        autoprefixer: {},
-    },
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
 }
